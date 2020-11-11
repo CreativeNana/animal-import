@@ -1,0 +1,19 @@
+{
+  "name": "animals-import",
+  "version": "1.0.0",
+  "main": "import.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Nana",
+  "license": "ISC",
+  "description": "This is a sample import script you can use to import data into your MongoDB database.\r 1. Edit the `./models` and `./seeds` files to match your data.\r 2. Add your connection details to a `.env` in the root of the project.\r 3. From the terminal, enter `node import.js` to import your data.",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.13"
+  }
+}
